@@ -1,16 +1,23 @@
 # yii-jwt
-    INSTALL
-        composer require killlinuxkill/yii-jwt
 
-    CONFIG
-        'components'=>array(
-            ...
-            'JWT' => array(
-                'class' => 'killlinuxkill\JWT',
-                'key' => 'YOUR-SECRET-KEY',
-                'alg' => 'DEFAULT-ALG'
-            ),
-            ...
+# INSTALL
+    composer require killlinuxkill/yii-jwt
+
+# CONFIG
+    in main.php
+```php
+    'components'=>array(
+        ...
+        'JWT' => array(
+            'class' => 'killlinuxkill\JWT',
+            'key' => 'YOUR-SECRET-KEY',
+            'alg' => 'DEFAULT-ALG'
         ),
-
-    USE
+        ...
+    ),
+```
+# USE
+```php
+    $token = ['id' => '45678', 'name' => 'Name'];
+    $jwt = Yii::app()->JWT->encode($token);
+    $decode = Yii::app()->JWT->decode($jwt);
