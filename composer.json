@@ -12,7 +12,7 @@
             "email": "killlinuxkill@gmail.com"
         }
     ],
-    "license": "BSD3",
+    "license": "BSD-3-Clause",
     "autoload": {
        "psr-4": {
            "killwindows\\JWT\\": "src"
