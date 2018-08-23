@@ -1,24 +1,20 @@
 {
-    "name": "killlinuxkill/yii-jwt",
-    "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
-    "homepage": "https://github.com/killlinuxkill/yii-jwt",
+    "name": "killwindows/yii-jwt",
+    "description": "JWT Component for Yii v1",
+    "type": "extension",
+    "require": {
+        "php": ">=5.3.0",
+        "firebase/php-jwt": "^5.0"
+    },
     "authors": [
         {
-            "name": "Berezanskii Bogdan",
-            "email": "killlinuxkill@gmail.com",
-            "role": "Developer"
+            "name": "killwindows",
+            "email": "killlinuxkill@gmail.com"
         }
     ],
-    "license": "BSD-3-Clause",
-    "require": {
-        "php": ">=5.3.0"
-    },
     "autoload": {
-        "psr-4": {
-            "killlinuxkill\\JWT\\": "src"
-        }
-    },
-    "require": {
-        "firebase/php-jwt": "master"
-    }
+       "psr-4": {
+           "killwindows\\JWT\\": "src"
+       }
+   }
 }
