@@ -17,5 +17,6 @@
        "psr-4": {
            "killwindows\\JWT\\": "src"
        }
-   }
+   },
+   "minimum-stability": "stable",
 }
