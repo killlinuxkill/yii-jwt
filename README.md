@@ -1,7 +1,7 @@
 # yii-jwt
 
 # INSTALL
-    composer require killlinuxkill/yii-jwt
+    composer require killwindows/yii-jwt
 
 # CONFIG
     in main.php
