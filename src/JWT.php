@@ -1,6 +1,6 @@
 <?php
 
-namespace killlinuxkill\JWT;
+namespace killwindows\JWT;
 
 use Firebase\JWT\JWT as BaseJWT;
 
