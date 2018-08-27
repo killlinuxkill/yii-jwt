@@ -9,7 +9,7 @@
     'components'=>array(
         ...
         'JWT' => array(
-            'class' => 'killlinuxkill\JWT',
+            'class' => 'killwindows\JWT\JWT',
             'key' => 'YOUR-SECRET-KEY',
             'alg' => 'DEFAULT-ALG'
         ),
